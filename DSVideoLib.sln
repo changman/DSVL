@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSVL", "src\DSVL.vcxproj", "{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2} = {754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glutSample", "src\glutSample.vcxproj", "{826D36FB-3301-4A56-A8D4-343D84D2941E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IEEE1394_id", "src\IEEE1394_id.vcxproj", "{BC55969A-78AA-4C47-AB02-CA04409C6EF8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D} = {BFA16123-9EB6-4641-A33F-9FFD7511AD5D}
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2} = {754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baseclasses", "BaseClasses\baseclasses.vcxproj", "{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxmlSTL", "extlib\tinyxml\tinyxmlSTL.vcxproj", "{C282D6B0-45BF-455A-DC10-B02DB9E81D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Debug|Win32.Build.0 = Debug|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Release|Win32.ActiveCfg = Release|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Release|Win32.Build.0 = Release|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Template|Win32.ActiveCfg = Template|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Template|Win32.Build.0 = Template|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Debug|Win32.Build.0 = Debug|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Release|Win32.ActiveCfg = Release|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Release|Win32.Build.0 = Release|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Template|Win32.ActiveCfg = Template|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Template|Win32.Build.0 = Template|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Debug|Win32.Build.0 = Debug|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Release|Win32.ActiveCfg = Release|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Release|Win32.Build.0 = Release|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Template|Win32.ActiveCfg = Release|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Template|Win32.Build.0 = Release|Win32
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}.Debug|Win32.Build.0 = Debug|Win32
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}.Release|Win32.ActiveCfg = Release|Win32
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}.Release|Win32.Build.0 = Release|Win32
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}.Template|Win32.ActiveCfg = Release|Win32
+		{754AAD37-C1DE-4BEC-8BE5-A884E65E05B2}.Template|Win32.Build.0 = Release|Win32
+		{C282D6B0-45BF-455A-DC10-B02DB9E81D42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C282D6B0-45BF-455A-DC10-B02DB9E81D42}.Debug|Win32.Build.0 = Debug|Win32
+		{C282D6B0-45BF-455A-DC10-B02DB9E81D42}.Release|Win32.ActiveCfg = Release|Win32
+		{C282D6B0-45BF-455A-DC10-B02DB9E81D42}.Release|Win32.Build.0 = Release|Win32
+		{C282D6B0-45BF-455A-DC10-B02DB9E81D42}.Template|Win32.ActiveCfg = Release|Win32
+		{C282D6B0-45BF-455A-DC10-B02DB9E81D42}.Template|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal
